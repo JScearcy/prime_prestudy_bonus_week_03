@@ -1,11 +1,11 @@
-function Firstfunction(num) {
+function firstfunction(num) {
 	return num *= (2 + num);
 }
-function SecondFunction(num) {
+function secondFunction(num) {
 	return num += num * num;
 }
-function ThirdFunction(num) {
+function thirdFunction(num) {
 	return num *= 3 
 }
 
-Firstfunction(SecondFunction(ThirdFunction(2)))
+firstFunction(secondFunction(thirdFunction(2)))
