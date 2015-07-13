@@ -1,4 +1,4 @@
-function firstfunction(num) {
+function firstFunction(num) {
 	return num *= (2 + num);
 }
 function secondFunction(num) {
